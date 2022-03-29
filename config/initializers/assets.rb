@@ -14,4 +14,4 @@ Rails.application.config.assets.paths << Rails.root.join("node_modules")
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 
 # アセットパイプラインのプリコンパイル対象に追加する
-Rails.application.config.assets.precompile += %w( staff.css )
+Rails.application.config.assets.precompile += %w( staff.css admin.css customer.css )

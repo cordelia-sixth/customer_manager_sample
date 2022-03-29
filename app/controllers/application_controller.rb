@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  # リクエストされたURLによって使うview layoutを変更する
   layout :set_layout
 
   private def set_layout
