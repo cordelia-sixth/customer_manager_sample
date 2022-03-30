@@ -1,4 +1,5 @@
 /* 職員サイト用マニフェスト
  * スタイルファイルは全て以下のディレクトリ内に置く
  *= require_tree ./staff
+ *= require_tree ./shared
 */
